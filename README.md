@@ -1,5 +1,5 @@
 # Forecasting-cash-demand-in-ATMs
-Using KNN regression to analyse withdrawal behaviour and manage cash quantities in ATMs
+Using K-Nearest Neighbors (KNN) regression to analyse withdrawal behaviour and manage cash quantities in ATMs
 
 Efficient cash management is important for every bank, involving strategic decisions regarding ATM network reloads. 
 Insufficient cash supply to ATMs increases the risk of customer dissatisfaction, tarnished reputation, and revenue loss. 
