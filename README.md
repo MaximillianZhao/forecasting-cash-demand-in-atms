@@ -8,14 +8,16 @@ Thus, it is necessary maintain a good balance in ATM cash levels.
 
 Dataset
 
-Variable
-Withdraw : The total cash withdrawn a day (in 1000 local currency)
-Shops    : Number of shops/restaurants within a walkable distance (in 100)
-ATMs     : Number of other ATMs within a walkable distance (in 10)
-Downtown : =1 if the ATM is in downtown, 0 if not 
-Weekday  : =1 if the day is weekday, 0 if not
-Center   : =1 if the ATM is located in a center (shopping, airport, etc), 0 if not
-High     : =1 if the ATM has a high cash demand in the last month, 0 if not
+| Variable | Description                                                             |
+|----------|-------------------------------------------------------------------------|
+| Withdraw | The total cash withdrawn a day (in 1000 local currency)                 |
+| Shops    | Number of shops/restaurants within a walkable distance (in 100)         |
+| ATMs     | Number of other ATMs within a walkable distance (in 10)                 |   
+| Downtown | =1 if the ATM is in downtown, 0 if not                                  |
+| Weekday  | =1 if the day is weekday, 0 if not                                      |
+| Center   | =1 if the ATM is located in a center (shopping, airport, etc), 0 if not |
+| High     | =1 if the ATM has a high cash demand in the last month, 0 if not        |
+
 
 The objective of the model is to precisely forecast the response variable 'Withdrawal' based on relevant covariate variables. 
 By predicting the amount withdrawn from each ATM, banks can effectively determine the optimal level of cash to supply the ATM with.
