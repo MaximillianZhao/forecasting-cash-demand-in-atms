@@ -1,10 +1,9 @@
 # Forecasting-cash-demand-in-ATMs
 Using KNN regression to analyse withdrawal behaviour and manage cash quantities in ATMs
 
-An important task for every bank is to optimise cash management, making smarter decisions abour reloading its ATM network. 
-Supplying ATMs with insufficient cash runs the risk of customers being unable to withdraw funds, leading to customer dissatisfaction, reputational damage, and lost revenue.
-Supplying ATMs with too much cash and the bank begins to incur the opportunity cost related to capital and potential interst income.
-Thus, it is necessary maintain a good balance in ATM cash levels. 
+Efficient cash management is important for every bank, involving strategic decisions regarding ATM network reloads. 
+Insufficient cash supply to ATMs increases the risk of customer dissatisfaction, tarnished reputation, and revenue loss. 
+Conversely, over-supplying ATMs incurs opportunity costs tied to capital and potential interest income.
 
 Dataset
 
@@ -24,8 +23,8 @@ By predicting the amount withdrawn from each ATM, banks can effectively determin
 
 1. Exploratory Data Analysis:
 
-   Examining patterns and trends within the data which justify the use of KNN regression techniques
+   Examining patterns within the data which justify the use of KNN regression.
+   
+3. KNN Regression:
 
-2. KNN Regression:
-
-   Implementing KNN regression tuning parameters and testing on training data
+   Implementing KNN regression and evaluating results.
